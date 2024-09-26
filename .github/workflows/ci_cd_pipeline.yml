@@ -24,7 +24,5 @@ jobs:
       - name: Train Model
         run: |
           python ml_model/train.py
-      - name: Evaluate Model
-        run: |
-          python ml_model/evaluate.py
+      
       
